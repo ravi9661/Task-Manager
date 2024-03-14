@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="Login" type="text/html" href="Login.html">
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    
+    <div class="task-form">
+        <h2>Add Task</h2>
+        <form id="task-form">
+            <input type="text" id="task" placeholder="Task Name" required>
+            <input type="date" id="due-date" required>
+            <button type="submit">Add Task</button>
+        </form>
+    </div>
+    
+    <div class="task-list">
+        <h2>Task List</h2>
+        <ul id="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="t1script.js"></script>
+</body>
+</html>

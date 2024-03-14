@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Apply some basic styling to the header */
+header {
+    background-color: #333;
+    color: rgb(43, 173, 103);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the task form */
+.task-form {
+    margin: 37px;
+    padding: 22px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-form h2 {
+    margin-top: 1;
+}
+
+/* Style the task list */
+.task-list {
+    margin: 25px;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-list h2 {
+    margin-top: 0;
+}
+
+/* Style form input elements */
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the "Add Task" button */
+button[type="submit"] {
+    background-color: #13ac6d;
+    color: rgb(29, 85, 191);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style list items (tasks) */
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add some spacing between list items */
+li + li {
+    margin-top: 10px;
+}
